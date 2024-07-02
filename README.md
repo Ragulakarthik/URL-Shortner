@@ -6,17 +6,36 @@ The URL Shortener API is a Java-based Spring Boot application that provides a se
 
 This project demonstrates practical use of Spring Boot, PostgreSQL, and OpenCSV, offering a comprehensive example of building a URL shortening service.
 
+
+
 **Features**
+
 **Shorten URLs:** Convert long URLs into short, user-friendly links.
+
 **Set Expiration Dates:** Specify an expiration date for short URLs.
+
 **Update URLs:** Update the original URL for existing short URLs.
+
 **Redirect Short URLs:** Redirect users from short URLs to their original long URLs.
+
 **CSV File Management:** Read from and write to a CSV file for URL data storage and management.
+
 **Database Integration:** Store URL data in a PostgreSQL database.
+
 **Exception Handling:** Handles cases for expired URLs and non-existent short URLs with appropriate error responses.
+
+
+
+
 **Technologies Used**
+
 **Java 17:** Programming language used for the application.
+
 **Spring Boot:** Framework for building the RESTful API.
+
 **PostgreSQL:** Relational database for storing URL data.
+
 **OpenCSV:** Library for reading from and writing to CSV files.
+
 **Maven:** Build tool for managing dependencies and building the project
+
