@@ -1,41 +1,41 @@
-**URL Shortener API:**
+# URL Shortener API 🌐
 
-**Overview:**
+## Overview 📖
 
-The URL Shortener API is a Java-based Spring Boot application that provides a service for shortening long URLs. Users can create short URLs with an expiration date, update existing short URLs, and redirect to the original long URLs. The application also maintains a local CSV file to store URL data, ensuring persistence across application restarts.
+The URL Shortener API is a Java-based Spring Boot application that provides a service for shortening long URLs. Users can create short URLs with expiration dates, update existing short URLs, and redirect to the original long URLs. This project uses a SQL database for persistence and is integrated with a React front end, demonstrating practical use of Spring Boot and SQL in building a URL shortening service.
 
-This project demonstrates practical use of Spring Boot, PostgreSQL, and OpenCSV, offering a comprehensive example of building a URL shortening service.
+![image](https://github.com/user-attachments/assets/aea3efed-6e65-48d1-a915-e8885496c17d)
 
+![image](https://github.com/user-attachments/assets/92588812-b7d6-4b23-82d2-d8fcaafb58a0)
 
+![image](https://github.com/user-attachments/assets/ed1027c0-d7e9-40d7-835b-af4aa244b654)
 
-**Features**
+![image](https://github.com/user-attachments/assets/9917030c-b3ef-4897-8f2a-18d2ba8d7feb)
 
-**Shorten URLs:** Convert long URLs into short, user-friendly links.
+This is how data base looks like
+![image](https://github.com/user-attachments/assets/225fedf5-8111-4870-a348-737d55366d2d)
 
-**Set Expiration Dates:** Specify an expiration date for short URLs.
+## Features ✨
 
-**Update URLs:** Update the original URL for existing short URLs.
+- **Shorten URLs:** 🔗 Convert long URLs into short, user-friendly links.
+- **Set Expiration Dates:** ⏳ Specify an expiration date for short URLs.
+- **Update URLs:** 🔄 Update the original URL for existing short URLs.
+- **Redirect Short URLs:** 🔄 Redirect users from short URLs to their original long URLs.
+- **Database Integration:** 🗄️ Store URL data in a SQL database.
+- **Exception Handling:** 🚫 Handles cases for expired URLs and non-existent short URLs with appropriate error responses.
 
-**Redirect Short URLs:** Redirect users from short URLs to their original long URLs.
+## Technologies Used 💻
 
-**CSV File Management:** Read from and write to a CSV file for URL data storage and management.
+- **Java 17:** ☕ Programming language used for the application.
+- **Spring Boot:** 🚀 Framework for building the RESTful API.
+- **SQL:** 🗄️ Relational database for storing URL data.
+- **React:** ⚛️ Front-end library for building user interfaces.
+- **Maven:** 📦 Build tool for managing dependencies and building the project.
 
-**Database Integration:** Store URL data in a PostgreSQL database.
+## Getting Started 🚀
 
-**Exception Handling:** Handles cases for expired URLs and non-existent short URLs with appropriate error responses.
+### Prerequisites 📋
 
-
-
-
-**Technologies Used**
-
-**Java 17:** Programming language used for the application.
-
-**Spring Boot:** Framework for building the RESTful API.
-
-**PostgreSQL:** Relational database for storing URL data.
-
-**OpenCSV:** Library for reading from and writing to CSV files.
-
-**Maven:** Build tool for managing dependencies and building the project
-
+- Java 17 ☕
+- Maven 📦
+- SQL database (MySQL, MariaDB, etc.) 🗄️
