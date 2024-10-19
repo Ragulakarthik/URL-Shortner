@@ -1,5 +1,0 @@
-"id","original_url","short_url","created_at","expires_at"
-"2","https://www.test.com","http://localhost:8080/short2","2024-02-01 11:00:00","2024-11-30 22:59:59"
-"1","https://www.example.com","http://localhost:8080/short1","2024-01-01 10:00:00","2024-12-31 23:59:59"
-"3","https://www.linkedin.com/in/karthik-ragula-5a5b94220/","http://localhost:8080/b437c5bf","2024-07-02 12:39:19","2025-06-21 12:39:19"
-"4","https://www.youtube.com/watch?v=fwTFEruWRCs","http://localhost:8080/d5350c04","2024-07-02 12:42:31","2025-05-02 12:42:31"
