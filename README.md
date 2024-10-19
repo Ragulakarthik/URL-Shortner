@@ -2,7 +2,8 @@
 
 ## Overview 📖
 
-The URL Shortener API is a Java-based Spring Boot application that provides a service for shortening long URLs. Users can create short URLs with expiration dates, update existing short URLs, and redirect to the original long URLs. This project uses a SQL database for persistence and is integrated with a React front end, demonstrating practical use of Spring Boot and SQL in building a URL shortening service.
+The URL Shortener API is a Java-based Spring Boot application integrated with a React front end, allowing users to shorten long URLs, set expiration dates, update existing URLs, and redirect to original URLs. It uses a MySQL database for persistence and stores URL mappings, with functionality to handle URL expiration. The entire application is containerized using Docker for simplified deployment and scalability, ensuring consistent environments for both the Spring Boot API and MySQL database, making it efficient and practical for real-world use.
+
 
 ![image](https://github.com/user-attachments/assets/aea3efed-6e65-48d1-a915-e8885496c17d)
 
@@ -14,6 +15,24 @@ The URL Shortener API is a Java-based Spring Boot application that provides a se
 
 This is how data base looks like
 ![image](https://github.com/user-attachments/assets/225fedf5-8111-4870-a348-737d55366d2d)
+
+Create MYSQL docker image and conatiner
+
+![image](https://github.com/user-attachments/assets/04bad821-106e-4d0a-9596-470b24b8d309)
+
+Build the docker image for spring boot application
+![image](https://github.com/user-attachments/assets/a7831628-c167-4324-b777-c3a88665c3cd)
+
+Create Network for connecting MySql to spring boot
+
+![image](https://github.com/user-attachments/assets/f6852843-7783-4eb6-8dea-5de38c7a3828)
+
+Run the Command to run the docker image
+
+![image](https://github.com/user-attachments/assets/9afa1097-bb83-4d81-8796-62039f33d0f5)
+
+
+
 
 ## Features ✨
 
@@ -31,6 +50,7 @@ This is how data base looks like
 - **SQL:** 🗄️ Relational database for storing URL data.
 - **React:** ⚛️ Front-end library for building user interfaces.
 - **Maven:** 📦 Build tool for managing dependencies and building the project.
+- **Docker:**🛳️ Used for containerizing.
 
 ## Getting Started 🚀
 
