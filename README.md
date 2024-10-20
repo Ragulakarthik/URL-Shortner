@@ -32,8 +32,10 @@ Run the Command to run the docker image
 ![image](https://github.com/user-attachments/assets/9afa1097-bb83-4d81-8796-62039f33d0f5)
 
 For frontend : Add docker file and run these commands
-docker build -t urlshortenerfrontend:dev .
-docker run -p 3000:3000 urlshortenerfrontend:dev
+
+**docker build -t urlshortenerfrontend:dev .**
+
+**docker run -p 3000:3000 urlshortenerfrontend:dev**
 
 
 
